@@ -97,19 +97,6 @@ if option == "2":
 	count = size;
 	while (count != 0):
 		guess = raw_input("What's your guess? ")
-		# for each character in the string
-			# if there is a character that matches the guess
-				# get its index in the string
-				# go to that index in the "__"
-				# replace the "--" with thte character
-				# make sure you DON'T stop at the first sighting of the char
-					# there could be multiple a's or q's in a give string
-	# figure out the length of the word --> draw scene
-	# set counting variable = length
-	# while (count != 0) let the user keep guessing
-	# decrement count whenever user guesses a correct letter
-		# (make sure to account for guessing 2 spaces correctly at once
-				# i.e. there are 2 a's in the word
 if option == "4":
 	word_bank = ["caterpillar", "restaurant", "movie", "reindeer", "frog", "piccolo"]
 	word = word_bank[randint(0, len(word_bank) - 1)]
